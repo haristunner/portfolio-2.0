@@ -36,7 +36,6 @@
 .about__paragraph > h1 {
   font-size: 60px;
   color: #272341;
-  /* -webkit-text-stroke: 1px black; */
   text-shadow: 2px -2px 1px black;
   margin-bottom: 1%;
 }
