@@ -51,11 +51,11 @@
 }
 
 .about__paragraph > div > span {
-    font-weight: 500;
+  font-weight: 500;
 }
 
-.about__paragraph > button {
-  background: linear-gradient( #f48787,#e76e59);
+.about__paragraph > a {
+  background: linear-gradient(#f48787, #e76e59);
   border: none;
   border: 2px solid #fff;
   color: #fff;
@@ -64,58 +64,58 @@
   letter-spacing: 1px;
   line-height: 30px;
   cursor: pointer;
+  text-decoration: none;
 }
 
-@media (min-width:768px) and (max-width:1024px) {
-    .about__img>img{
-        width: 0;
-    }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about__img > img {
+    width: 0;
+  }
 
-    .about__img{
-        width: 0;
-    }
+  .about__img {
+    width: 0;
+  }
 
-    .about__paragraph>h1{
-        font-size: 50px;
-    }
+  .about__paragraph > h1 {
+    font-size: 50px;
+  }
 
-    .about__paragraph>div{
-        font-size: 21px;
-        letter-spacing: 0.75px;
-        line-height: 30px;
-    }
+  .about__paragraph > div {
+    font-size: 21px;
+    letter-spacing: 0.75px;
+    line-height: 30px;
+  }
 
-    .about__paragraph>button{
-        font-size: 24px;
-    }
+  .about__paragraph > a {
+    font-size: 24px;
+  }
 }
 
-@media screen and (max-width:767px) {
-    .about__img>img{
-        width: 0;
-    }
+@media screen and (max-width: 767px) {
+  .about__img > img {
+    width: 0;
+  }
 
-    .about__img{
-        width: 0;
-    }
+  .about__img {
+    width: 0;
+  }
 
-    .about__paragraph>h1{
-        font-size: 40px;
-    }
+  .about__paragraph > h1 {
+    font-size: 40px;
+  }
 
-    .about__paragraph>div{
-        font-size: 18px;
-        letter-spacing: 0.5px;
-        line-height: 27px;
-        margin-bottom: 5%;
-    }
+  .about__paragraph > div {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 27px;
+    margin-bottom: 5%;
+  }
 
-    .about__paragraph>button{
-        font-size: 18px;
-        
-    }
+  .about__paragraph > a {
+    font-size: 18px;
+  }
 
-    .about__paragraph{
-        text-align: center;
-    }
+  .about__paragraph {
+    text-align: center;
+  }
 }

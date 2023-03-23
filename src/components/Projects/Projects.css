@@ -1,0 +1,139 @@
+.project {
+  padding-top: 5vh;
+  padding-bottom: 1vh;
+}
+
+header > h1 {
+  color: #272341;
+  font-size: 92px;
+  text-align: center;
+  text-shadow: 2px -2px 1px black;
+  margin-bottom: 1vh;
+}
+
+.projects__name {
+  text-align: center;
+  width: 80vw;
+  margin: auto;
+}
+
+.projects__name > header {
+  color: #272341;
+  font-size: 64px;
+}
+
+.projects__name > p {
+  color: #212020;
+  font-size: 24px;
+}
+
+.projects__sample {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5vw;
+  overflow: hidden;
+  margin-top: 3vh;
+  width: 70vw;
+}
+
+.projects__btn {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.projects__live {
+  border: none;
+  background: -webkit-linear-gradient(#f48787, #e76e59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-image: linear-gradient(#f48787, #e76e59) 1;
+  border-width: 3px;
+  border-style: solid;
+  padding: 10px 60px;
+  font-size: 32px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.projects__code {
+  border: none;
+  background: -webkit-linear-gradient(#f48787, #e76e59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 30px;
+}
+
+.projects__img > img {
+  /* scale: 0.8; */
+  width: 50vw;
+}
+
+@media screen and (max-width: 767px) {
+  header > h1 {
+    font-size: 38px;
+  }
+
+  .projects__name {
+    width: 70vw;
+  }
+
+  .projects__name > header {
+    font-size: 35px;
+  }
+
+  .projects__name > p {
+    font-size: 1rem;
+  }
+
+  .projects__sample {
+    flex-direction: column;
+    gap: 2vh;
+  }
+
+  .projects__live {
+    border-width: 2px;
+    font-size: 1rem;
+    padding: 10px 40px;
+  }
+
+  .projects__code {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  header > h1 {
+    font-size: 45px;
+  }
+
+  .projects__name {
+    width: 75vw;
+  }
+
+  .projects__name > header {
+    font-size: 35px;
+  }
+
+  .projects__name > p {
+    font-size: 1rem;
+  }
+
+  .projects__sample {
+    flex-direction: column;
+    gap: 2vh;
+  }
+
+  .projects__live {
+    border-width: 2px;
+    font-size: 1rem;
+    padding: 10px 40px;
+  }
+
+  .projects__code {
+    font-size: 1rem;
+  }
+}

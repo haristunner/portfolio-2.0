@@ -3,15 +3,14 @@ import "./Home.css";
 import profile from "../../assets/profile2.jpg";
 
 export const Home = () => {
-
-  const scrollBottom=()=>{
-    const currentPosition = window.pageYOffset;
-    const nextPosition = currentPosition + window.innerHeight;
+  const scrollBottom = () => {
+    const nextPosition = window.innerHeight;
+    console.log(nextPosition);
     window.scrollTo({
       top: nextPosition,
       behavior: "smooth",
     });
-  }
+  };
 
   return (
     <div className="Home">

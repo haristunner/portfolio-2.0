@@ -82,10 +82,16 @@
     border-width: 3px;
   }
 
-  .home__img {
-    width: 0;
-  }
+  /* .home__container {
+    flex-direction: column;
+    justify-content: center;
+  } */
 
+  .home__img > img {
+    width: 0;
+    /* scale: 0.7; */
+    /* height: 30vh; */
+  }
 }
 
 @media screen and (max-width: 767px) {
