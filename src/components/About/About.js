@@ -4,7 +4,7 @@ import Image from "../../assets/image1.jpeg";
 
 export const About = () => {
   return (
-    <div className="About" id="about">
+    <div className="About">
       <div className="about__container">
         <div className="about__img">
           <img src={Image} alt="" />

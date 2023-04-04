@@ -57,6 +57,11 @@
   /* align-items: center; */
 }
 
+.top:hover{
+  scale:1.1;
+  /* margin-right: 5px; */
+}
+
 .contact__socialMedia {
   display: flex;
   align-items: center;
@@ -68,6 +73,10 @@
 
 .contact__socialMedia>a{
     cursor: pointer;
+}
+
+.contact__socialMedia>a:hover{
+  scale: 1.1;
 }
 
 .contact__line {

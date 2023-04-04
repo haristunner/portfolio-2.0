@@ -4,6 +4,7 @@ import netflix from "../../assets/netflix.png";
 import weather from "../../assets/weather.png";
 import tictactoe from "../../assets/tictactoe.png";
 import todo from "../../assets/todo.png";
+import figma from "../../assets/figma.png";
 
 export const Projects = () => {
   return (
@@ -16,7 +17,7 @@ export const Projects = () => {
           <header>Netflix</header>
           <p>
             It is an Netflix Clone website.The movies are shown from the IMDB
-            API .The Authentication is working by using the Firebase
+            API. The Authentication is working by using the Firebase
             Authentication System.It has both the Login and the LogOut
             Facility.Enjoy user Experience!!!
           </p>
@@ -124,6 +125,31 @@ export const Projects = () => {
             </div>
             <div className="projects__img">
               <img src={todo} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <header>
+        <h1 style={{ marginTop: "6vh" }}>Figma DESIGN</h1>
+      </header>
+      <div className="project">
+        <div className="projects__name">
+          <header>Portfolio</header>
+          <p>
+            My first Figma design of this portfolio site. In this, I learnt how
+            to use figma for designing.
+          </p>
+          <div className="projects__sample">
+            <div className="projects__btn">
+              <a
+                className="projects__live"
+                href="https://www.figma.com/file/bih8vaWxJsozQ0ob86REnj/portfolio?t=8s5MKWppImcU7Xwv-6"
+              >
+                see design
+              </a>
+            </div>
+            <div className="projects__img">
+              <img src={figma} alt="" />
             </div>
           </div>
         </div>

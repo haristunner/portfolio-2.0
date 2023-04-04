@@ -20,8 +20,8 @@ export const Contact = () => {
       </div>
       <footer>
         <div className="footer__container">
-          <div className="top" onClick={top}>
-            <KeyboardArrowUpIcon
+          <div className="top" >
+            <KeyboardArrowUpIcon onClick={top}
               style={{ fontSize: "40px", cursor: "pointer", color: "#f5f5f5" }}
             />
           </div>

@@ -3,6 +3,7 @@
   background: linear-gradient(#f48787 100%, #e76e59 50%);
   min-width: 100vw;
   overflow: hidden;
+  /* scroll-behavior: smooth; */
 }
 
 .about__container {
