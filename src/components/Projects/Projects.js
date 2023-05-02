@@ -5,6 +5,7 @@ import weather from "../../assets/weather.png";
 import tictactoe from "../../assets/tictactoe.png";
 import todo from "../../assets/todo.png";
 import figma from "../../assets/figma.png";
+import minuteToFood from "../../assets/minute-to-food.png";
 
 export const Projects = () => {
   return (
@@ -13,6 +14,37 @@ export const Projects = () => {
         <header>
           <h1>React PROJECTS</h1>
         </header>
+        <div className="projects__name">
+          <header>Minute To Food</header>
+          <p>
+            A food delivery app using React with Redux Toolkit that features a
+            landing page with secure Google authentication for customer sign-in.
+            The app includes an add-to-cart functionality that allows users to
+            select and modify their food order before proceeding to checkout.
+            Enjoy user Experience!!!
+          </p>
+          <div className="projects__sample">
+            <div className="projects__btn">
+              <a
+                className="projects__live"
+                href="https://minute-to-food.netlify.app/"
+              >
+                see live
+              </a>
+              <a
+                className="projects__code"
+                href="https://github.com/haristunner/minute-to-food"
+              >
+                source code
+              </a>
+            </div>
+            <div className="projects__img">
+              <img src={minuteToFood} alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="project">
         <div className="projects__name">
           <header>Netflix</header>
           <p>

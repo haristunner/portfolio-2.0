@@ -22,7 +22,7 @@ export const About = () => {
             JavaScript , React.js , C++ and Firebase .
           </div>
           <a
-            href="https://drive.google.com/file/d/1uD34LUrwMbv9UNZAdejnBpDBKDttE_Ak/view?usp=share_link"
+            href="https://drive.google.com/file/d/1_aLxHcVnSu45msA76Co0jcQCgUF8kGUO/view"
             target="_blank"
           >
             Resume
