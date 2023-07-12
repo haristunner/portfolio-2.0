@@ -1,11 +1,15 @@
+.Projects {
+  margin-top: 5vh;
+}
+
 .project {
-  padding-top: 5vh;
-  padding-bottom: 1vh;
+  /* padding-top: 5vh; */
+  padding-bottom: 8vh;
 }
 
 header > h1 {
   color: #272341;
-  font-size: 92px;
+  font-size: 62px;
   text-align: center;
   text-shadow: 2px -2px 1px black;
   margin-bottom: 1vh;
@@ -19,12 +23,12 @@ header > h1 {
 
 .projects__name > header {
   color: #272341;
-  font-size: 64px;
+  font-size: 40px;
 }
 
 .projects__name > p {
   color: #212020;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .projects__sample {
@@ -83,6 +87,10 @@ header > h1 {
 }
 
 @media screen and (max-width: 767px) {
+  .project{
+    padding-bottom: 6vh;
+  }
+
   header > h1 {
     font-size: 38px;
   }

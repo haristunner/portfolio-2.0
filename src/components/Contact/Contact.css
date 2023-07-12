@@ -1,5 +1,5 @@
 .Contact {
-  margin-top: 10vh;
+  margin-top: 8vh;
   padding-top: 5vh;
   min-height: 75vh;
   position: relative;
@@ -57,8 +57,8 @@
   /* align-items: center; */
 }
 
-.top:hover{
-  scale:1.1;
+.top:hover {
+  scale: 1.1;
   /* margin-right: 5px; */
 }
 
@@ -71,11 +71,11 @@
   padding: 10px;
 }
 
-.contact__socialMedia>a{
-    cursor: pointer;
+.contact__socialMedia > a {
+  cursor: pointer;
 }
 
-.contact__socialMedia>a:hover{
+.contact__socialMedia > a:hover {
   scale: 1.1;
 }
 
@@ -95,42 +95,49 @@
   color: rgba(255, 255, 255, 0.2);
 }
 
-@media (min-width: 768px) and (max-width: 1024px){
-    .Contact>header{
-        font-size: 45px;
-    }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Contact {
+    margin-top: 0;
+  }
+  .Contact > header {
+    font-size: 45px;
+  }
 
-    .contact__email>p{
-        font-size: 35px;
-    }
+  .contact__email > p {
+    font-size: 35px;
+  }
 
-    .contact__email>a{
-        font-size: 25px;
-        padding: 8px 24px;
-    }
+  .contact__email > a {
+    font-size: 25px;
+    padding: 8px 24px;
+  }
 
-    .contact__line{
-        margin-left: 24vw;
-        margin-right: 24vw;
-    }
+  .contact__line {
+    margin-left: 24vw;
+    margin-right: 24vw;
+  }
 }
 
-@media screen and (max-width: 767px){
-    .Contact>header{
-        font-size: 35px;
-    }
+@media screen and (max-width: 767px) {
+  .Contact {
+    margin-top: 0;
+  }
 
-    .contact__email>p{
-        font-size: 20px;
-    }
+  .Contact > header {
+    font-size: 35px;
+  }
 
-    .contact__email>a{
-        font-size: 20px;
-        padding: 8px 24px;
-    }
+  .contact__email > p {
+    font-size: 20px;
+  }
 
-    .contact__line{
-        margin-left: 22vw;
-        margin-right: 22vw;
-    }
+  .contact__email > a {
+    font-size: 20px;
+    padding: 8px 24px;
+  }
+
+  .contact__line {
+    margin-left: 22vw;
+    margin-right: 22vw;
+  }
 }
