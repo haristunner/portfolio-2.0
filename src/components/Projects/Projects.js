@@ -22,7 +22,7 @@ export const Projects = () => {
             who are currently active on the platform. Users can initiate
             conversations by selecting another user from the online user list or
             by searching for specific users. When a conversation is started, the
-            chat messages are sent and received in real time Enjoy user
+            chat messages are sent and received in real time. Enjoy user
             Experience!!!"
         live="https://visualizeee.netlify.app/"
         source="https://github.com/haristunner/chat-front"
