@@ -24,6 +24,7 @@ export const About = () => {
           <a
             href="https://drive.google.com/file/d/1JRY2uUv1l2d468XJjjQuuqcAKAYSej6e/view?usp=drive_link"
             target="_blank"
+            rel="noreferrer"
           >
             Resume
           </a>
